@@ -13,7 +13,7 @@ export const personal = {
 }
 
 export const quickStats = [
-  { label: "Professional Experiences", value: "5" },
+  { label: "Professional Experiences", value: "4" },
   { label: "Professional Certifications", value: "4" },
   { label: "Stakeholders Presented", value: "110+" },
   { label: "Records Analyzed", value: "2,000+" },
