@@ -2,6 +2,7 @@ import { personal, quickStats } from "@/data/portfolio"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import cvUrl from "@/assets/CV_Margareta_Lola_Lali_Lulita.pdf"
+import meImg from "@/assets/me.jpeg"
 
 export default function Hero() {
   return (
@@ -9,7 +10,7 @@ export default function Hero() {
       <div className="relative">
         <div className="w-28 h-28 rounded-full bg-gradient-to-br from-indigo-500 via-purple-500 to-cyan-400 p-0.5">
           <div className="w-full h-full rounded-full bg-slate-900 flex items-center justify-center text-4xl">
-            <img src="/src/assets/me.jpeg" alt={personal.name} className="rounded-full w-full h-full object-cover" />
+            <img src={meImg} alt={personal.name} className="rounded-full w-full h-full object-cover" />
           </div>
         </div>
         <div className="absolute -bottom-1 -right-1 w-6 h-6 rounded-full bg-green-500 border-2 border-slate-900" />
